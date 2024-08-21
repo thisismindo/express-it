@@ -1,5 +1,6 @@
 up:
 	@echo Start API Service: && \
+	npm run build && \
 	docker compose up -d
 down:
 	@echo Shut down API Service: && \
