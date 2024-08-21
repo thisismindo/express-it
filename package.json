@@ -1,0 +1,31 @@
+{
+    "name": "express-it",
+    "version": "0.0.1",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/thisismindo/express-it.git"
+    },
+    "keywords": [],
+    "author": "thisismindo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thisismindo/express-it/issues"
+    },
+    "homepage": "https://github.com/thisismindo/express-it",
+    "main": "src/app.js",
+    "description": "",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "mysql2": "^3.11.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
