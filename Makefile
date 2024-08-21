@@ -16,3 +16,6 @@ reset:
 setup-db:
 	@echo Setup DB: && \
 	./platform/bin/db-setup.sh
+check-image:
+	@echo Check build image: && \
+	docker run -it express-it-app sh

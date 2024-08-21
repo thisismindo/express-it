@@ -21,6 +21,10 @@ services:
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
+    command:
+      - '/bin/sh'
+      - '-c'
+      - '/bin/sleep 10 && npm run dev'
 
   database:
     container_name: mysql-db-primary
