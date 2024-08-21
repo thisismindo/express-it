@@ -1,4 +1,4 @@
-import { Model, DataTypes, Optional, Sequelize } from 'sequelize';
+import { Model, DataTypes, Optional } from 'sequelize';
 import { sequelize } from '../db';
 
 interface UserAttributes {
@@ -8,8 +8,9 @@ interface UserAttributes {
   createdAt?: Date;
   updatedAt?: Date;
 }
-
+/* eslint-disable @typescript-eslint/no-empty-object-type */
 interface UserCreationAttributes extends Optional<UserAttributes, 'id'> {}
+/* eslint-enable @typescript-eslint/no-empty-object-type */
 
 export class User extends Model<UserAttributes, UserCreationAttributes>
   implements UserAttributes {
