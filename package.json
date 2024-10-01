@@ -23,24 +23,24 @@
     "main": "src/app.js",
     "description": "",
     "dependencies": {
-        "body-parser": "^1.20.2",
+        "body-parser": "^1.20.3",
         "dotenv": "^16.4.5",
-        "express": "^4.19.2",
-        "mysql2": "^3.11.0",
+        "express": "^4.21.0",
+        "mysql2": "^3.11.3",
         "sequelize-typescript": "^2.1.6"
     },
     "devDependencies": {
-        "@eslint/js": "^9.9.0",
-        "@types/express": "^4.17.21",
-        "@types/node": "^22.5.0",
+        "@eslint/js": "^9.11.1",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.7.4",
         "@types/sequelize": "^4.28.20",
-        "@typescript-eslint/eslint-plugin": "^8.2.0",
-        "@typescript-eslint/parser": "^8.2.0",
-        "eslint": "^9.9.0",
-        "globals": "^15.9.0",
-        "nodemon": "^3.1.4",
+        "@typescript-eslint/eslint-plugin": "^8.8.0",
+        "@typescript-eslint/parser": "^8.8.0",
+        "eslint": "^9.11.1",
+        "globals": "^15.10.0",
+        "nodemon": "^3.1.7",
         "ts-node": "^10.9.2",
-        "typescript": "^5.5.4",
-        "typescript-eslint": "^8.2.0"
+        "typescript": "^5.6.2",
+        "typescript-eslint": "^8.8.0"
     }
 }
